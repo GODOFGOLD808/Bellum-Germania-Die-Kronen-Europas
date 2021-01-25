@@ -1,0 +1,15 @@
+ideas = {
+	country = {
+
+		population_counter = {
+
+			allowed = {
+				always = yes
+			}
+
+			modifier = {
+                MONTHLY_POPULATION = 0.05
+			}
+		}
+    }
+}

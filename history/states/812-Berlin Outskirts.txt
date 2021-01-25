@@ -1,0 +1,26 @@
+state={
+	id=812
+	name="STATE_812"
+	
+	history={
+		owner = GER
+		victory_points = {
+			478 2 		#Frankfurt
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = GER
+
+	}
+	
+	provinces={
+		478 3207 6441 9428 9496 11415 11505 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,183 @@
+leader_traits = {	#EOB Traits
+	
+	shrewd_engineer = {
+		random = no
+		research_speed_factor = 0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	scientific_advisor = {
+		random = no
+		research_speed_factor = 0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	country_revitaliser = {
+		random = no
+		line_change_production_efficiency_factor = 0.2
+		production_speed_industrial_complex_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	strong_leader = {
+		random = no
+		political_power_factor = 0.25
+		mobilization_laws_cost_factor = -0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	strong_leader = {
+		random = no
+		political_power_factor = 0.25
+		mobilization_laws_cost_factor = -0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	weak_leader = {
+		random = no
+		political_power_factor = -0.25
+		mobilization_laws_cost_factor = 0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	player_boy = {
+		random = no
+		opinion_gain_monthly_same_ideology_factor = 0.5
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	naval_genius = {
+		random = no
+		production_speed_dockyard_factor = 0.25
+		production_speed_naval_base_factor = 0.25
+		naval_coordination = 0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	scientific_expert = {
+		random = no
+		research_speed_factor = 0.05
+		nuclear_production_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	prospector = {
+		random = no
+		local_resources_factor = 0.30
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	population_grower = {
+		random = no
+		MONTHLY_POPULATION = 0.20
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	wasteland_traveler = {
+		random = no
+		attrition = -0.1
+		acclimatization_cold_climate_gain_factor = 0.1
+		acclimatization_hot_climate_gain_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	the_atomizer = {
+		random = no
+		experience_gain_navy_factor = 0.3
+		nuclear_production_factor = 0.3
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	aircraft_sharpshooter = {
+		random = no
+		production_speed_anti_air_building_factor = 0.3
+		navy_anti_air_attack_factor = 0.3
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	### Military Commanders ###
+	
+	battalion_supplier = {
+		random = no
+		no_supply_grace = 100
+		out_of_supply_factor = -0.5
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	the_spirit_of_Genghis = {
+		random = no
+		cavalry_attack_factor = 0.50
+		cavalry_defence_factor = 0.50
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	rough_terrain_combatant = {
+		random = no
+		terrain_penalty_reduction = 0.3
+		army_core_defence_factor = 0.3
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	excellent_oceangoer = {
+		random = no
+		convoy_escort_efficiency = 0.1
+		ships_at_battle_start = 0.1
+		convoy_raiding_efficiency_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

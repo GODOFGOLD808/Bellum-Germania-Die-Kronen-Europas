@@ -1,0 +1,29 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = { 
+                    has_population_counter = yes
+                }
+                set_variable = { population_counter = 30 }
+                set_variable = { population_counter_rate = 3 }
+                set_variable = { population_counter_max = 50 }
+            }
+		}
+	}
+    
+    on_daily = {
+		effect = {
+            if = {
+				limit = { 
+                    has_population_counter = yes
+                }
+                
+                add_to_variable = { population_counter = population_counter_rate }
+				
+                clamp_variable = { var = population_counter min = 0 max = population_counter_max }
+			}
+        }
+    }
+}

@@ -1,0 +1,17 @@
+
+# MAIN THEME
+music = {
+	name = "maintheme"
+	file = "Parbat_Action_Conflict.ogg"
+	volume = 0.65
+}
+
+#sabaton
+
+music = {
+	name = "???"
+	file = "britannia/???.ogg"
+	volume = 1
+}
+
+

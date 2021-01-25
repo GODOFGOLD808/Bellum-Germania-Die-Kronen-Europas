@@ -1,0 +1,7 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_population_counter"
+		texturefile = "gfx/interface/population_counter.dds"
+		legacy_lazy_load = no
+	}
+}

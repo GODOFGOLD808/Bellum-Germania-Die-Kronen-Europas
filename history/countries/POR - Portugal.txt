@@ -1,0 +1,161 @@
+﻿capital = 112
+
+oob = "POR_1900"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "POR_1900_naval_mtg"
+	else = {
+		set_naval_oob = "POR_1900_naval_legacy"
+	}
+}
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	tech_support = 1		
+	tech_engineers = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		basic_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		mtg_transport = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "La Resistance" }	
+	add_ideas = POR_unreliable_army
+	add_ideas = POR_unstable_republic
+	set_stability = 0.60
+	set_war_support = 0.15	
+	set_research_slots = 2
+
+	ENG = {
+		add_opinion_modifier = {
+			target = POR 
+			modifier  = POR_anglo_portuguese_alliance
+		}
+	}
+
+	POR = {
+		add_opinion_modifier = {
+			target = ENG 
+			modifier  = POR_anglo_portuguese_alliance
+		}
+	}
+
+	GER = {
+		add_opinion_modifier = {
+			target = POR
+			modifier = fascism_leanings_good
+		}
+	}
+
+	ITA = {
+		add_opinion_modifier = {
+			target = POR
+			modifier = fascism_leanings_good
+		}
+	}
+	
+}
+
+set_convoys = 50
+set_politics = {
+	ruling_party = autocratic_monarchist
+	last_election = "1889.10.19"		#Carlos I's Coronation
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	ultranationalist = 24
+	nationalist = 0
+	autocratic_monarchist = 70
+	reactionary = 3
+	conservative = 3
+	centrist = 0
+	liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+set_convoys = 100
+set_stability = 0.75
+
+create_country_leader = {
+	name = "Carlos I"
+	desc = "POLITICS_CARLOS_I_DESC"
+	picture = "gfx/leaders/POR/portrait_POR_Carlos_I.dds"
+	expire = "1908.2.1"	#His Death
+	ideology = constitutional_monarchist
+	traits = {
+		naval_genius
+	}
+}
+
+create_country_leader = {
+	name = "Luís Filipe de Bragança"
+	desc = "POLITICS_LUIS_BRAGANCA_DESC"
+	picture = "gfx/leaders/POR/portrait_POR_Luis_Braganca.dds"
+	expire = "1908.2.1"	#His Death
+	ideology = constitutional_monarchist
+	traits = {
+		
+	}
+}
+
+1908.2.1 = {
+
+set_politics = {
+	ruling_party = autocratic_monarchist
+	last_election = "1908.2.1"		#Manuel's Coronation
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	ultranationalist = 10
+	nationalist = 4
+	autocratic_monarchist = 70
+	reactionary = 3
+	conservative = 3
+	centrist = 0
+	liberal = 5
+	socialist = 5
+	communist = 0
+}
+
+create_country_leader = {
+	name = "Manuel Maria Filipe Carlos"
+	desc = "POLITICS_MANUEL_II_DESC"
+	picture = "gfx/leaders/POR/portrait_POR_Manuel_II.dds"
+	expire = "1932.7.2"	#His Death
+	ideology = constitutional_monarchist
+	traits = {
+		
+	}
+}

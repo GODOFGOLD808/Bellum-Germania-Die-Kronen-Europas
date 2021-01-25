@@ -1,0 +1,14 @@
+opinion_modifiers = {
+	
+	hates_westerners = {
+		value = -50
+	}
+	
+	ottoman_loyalty = {
+		value = 50
+	}
+	
+	kaiser_loyalty = {
+		value = 50
+	}
+}

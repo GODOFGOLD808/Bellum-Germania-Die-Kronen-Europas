@@ -1,0 +1,92 @@
+leader_traits = {	#EOB Politician Traits
+	
+	radical_nationalist = {
+		random = no
+		ultranationalist_drift = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	national_enthusiast = {
+		random = no
+		nationalist_drift = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	imperial_aristocrat = {
+		random = no
+		autocratic_monarchist_drift = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	anti_reformist = {
+		random = no
+		reactionary_drift = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	traditional_democrat = {
+		random = no
+		conservative_drift = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	moderationist = {
+		random = no
+		centrist_drift = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	market_liberal_humanitarian = {
+		random = no
+		liberal_drift = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	social_anti_capitalist = {
+		random = no
+		socialist_drift = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	communist_revolutionary = {
+		random = no
+		communist_drift = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	anarchist_revolutionary = {
+		random = no
+		anarchist_drift = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

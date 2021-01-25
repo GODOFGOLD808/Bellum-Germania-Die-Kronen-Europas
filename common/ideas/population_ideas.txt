@@ -1,0 +1,61 @@
+ideas = {
+	
+	population_ideas = {
+		
+		population_growth_increase = {
+		
+			picture = population_growth_increase
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			
+			modifier = { 
+				#MONTHLY_POPULATION = 0.40
+				#consumer_goods_factor = 0.02
+				#research_speed_factor = 0.02
+			}
+			
+		}
+		
+		population_growth_steady = {
+			
+			picture = population_growth_steady
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			
+			modifier = { 
+				#MONTHLY_POPULATION = 0.10
+			}
+			
+		}
+		
+		population_growth_stagnation = {
+			
+			picture = population_growth_stagnation
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			
+			modifier = { 
+				#MONTHLY_POPULATION = -0.20
+				#consumer_goods_factor = -0.02
+				#research_speed_factor = -0.02
+			}
+			
+		}
+		
+		population_growth_decrease = {
+			
+			picture = population_growth_decrease
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			
+			modifier = { 
+				#MONTHLY_POPULATION = -0.60
+				#consumer_goods_factor = -0.05
+				#research_speed_factor = -0.05
+			}
+			
+		}

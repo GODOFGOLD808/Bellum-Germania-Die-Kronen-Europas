@@ -1,0 +1,19 @@
+### German ideas
+
+ideas = {
+
+	##############
+	# Country ideas
+	##############
+
+	country = {
+		generic_landlocked_country = {
+			modifier = {
+				economy_cost_factor = 0.10
+				guarantee_cost = 0.2
+			}
+			name = generic_landlocked_country
+			picture = idea_generic_landlocked_country
+		}
+	}
+}

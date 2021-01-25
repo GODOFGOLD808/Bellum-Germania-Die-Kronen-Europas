@@ -1,0 +1,25 @@
+state={
+	id=816
+	name="STATE_816"
+	
+	history={
+		victory_points = {
+			3560 2 		#Verdun
+		}
+		owner = FRA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+		add_core_of = FRA
+
+	}
+	
+	provinces={
+		3560 5291 
+	}
+	manpower=18139
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

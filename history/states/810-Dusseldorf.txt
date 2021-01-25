@@ -1,0 +1,28 @@
+state={
+	id=810
+	name="STATE_810"
+	
+	history={
+		victory_points = {
+			6469 5 		#Essen
+		}
+		victory_points = {
+			6570 5 		#Dusseldorf
+		}
+		owner = GER
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+
+		}
+		add_core_of = GER
+
+	}
+	
+	provinces={
+		529 3512 6469 6570 9482 
+	}
+	manpower=619294
+	buildings_max_level_factor=1.000
+	state_category=city
+}

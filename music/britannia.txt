@@ -1,0 +1,46 @@
+music_station = "britannia"
+
+music = {
+	song = "British_Patriotic_Song_Rule_Britannia"
+	
+}
+
+music = {
+	song = "its_a_long_way_to_tipperary"
+	
+}
+
+music = {
+	song = "land_of_hope_and_glory"
+	
+}
+
+music = {
+	song = "revolution_francaise"
+	
+}
+
+music = {
+	song = "Die_Wacht_am_Rhein"
+	
+}
+
+music = {
+	song = "heil_dir_im_siegerkranz"
+	
+}
+
+music = {
+	song = "wohlauf_kameraden"
+	
+}
+
+music = {
+	song = "farewell_to_slavianka"
+	
+}
+
+music = {
+	song = "tsarist_army_marches_white_army"
+	
+}

@@ -1,0 +1,56 @@
+
+# MAIN THEME
+music = {
+	name = "Rule Britannia!"
+	file = "britannia/British_Patriotic_Song_Rule_Britannia.ogg"
+	volume = 1
+}
+
+music = {
+	name = "Its a Long way to Tipperary"
+	file = "britannia/its_a_long_way_to_tipperary.ogg"
+	volume = 1
+}
+
+music = {
+	name = "Land of Hope and Glory"
+	file = "britannia/land_of_hope_and_glory.ogg"
+	volume = 1
+}
+
+music = {
+	name = "Revolution Francaise"
+	file = "britannia/revolution_francaise.ogg"
+	volume = 1
+}
+
+music = {
+	name = "Die Wacht am Rhein"
+	file = "britannia/Die_Wacht_am_Rhein.ogg"
+	volume = 1
+}
+
+music = {
+	name = "Heil dir im Siegerkranz"
+	file = "britannia/heil_dir_im_siegerkranz.ogg"
+	volume = 1
+}
+
+music = {
+	name = "Wohlauf Kameraden"
+	file = "britannia/wohlauf_kameraden.ogg"
+	volume = 1
+}
+
+music = {
+	name = "Farewell to Slavianka"
+	file = "britannia/farewell_to_slavianka.ogg"
+	volume = 1
+}
+
+music = {
+	name = "Tsarist Army Marches White Army"
+	file = "britannia/tsarist_army_marches_white_army.ogg"
+	volume = 1
+}
+

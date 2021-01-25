@@ -1,0 +1,173 @@
+﻿capital = 16
+
+oob = "FRA_1900"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "FRA_1900_naval_mtg"
+		set_war_support = 0.1
+	else = {
+		set_naval_oob = "FRA_1900_naval_legacy"
+		set_war_support = 0.15
+	}
+}
+
+set_research_slots = 3
+set_stability = 0.5
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	basic_heavy_tank = 1
+	improved_light_tank = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	CAS1 = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+set_convoys = 300
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "1898.5.22"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	ultranationalist = 1
+	nationalist = 1
+	autocratic_monarchist = 9
+	reactionary = 0
+	conservative = 42
+	centrist = 0
+	liberal = 40
+	socialist = 7
+	communist = 0
+}
+
+create_faction = the_french_entente
+add_to_faction = FRA
+add_to_faction = RUS
+add_to_faction = BEL
+
+add_ideas = {
+	
+
+	ministers
+}
+
+create_country_leader = {
+	name = "Emile Loubet"
+	desc = "POLITICS_EMILE_LOUBET_DESC"
+	picture = "Portrait_FRA_Emile_Loubet.dds"
+	expire = "1929.12.20"
+	ideology = social_conservatism
+	traits = {
+		
+	}
+}
+
+#create_country_leader = {
+#	name = "Jules Meline"
+#	desc = "POLITICS_JULES_MELINE_DESC"
+#	picture = "Portrait_FRA_Jules_Meline.dds"
+#	expire = "1925.12.21"
+#	ideology = social_liberalism
+#	traits = {
+#		
+#	}
+#}
+
+create_country_leader = {
+	name = "Henri Brisson"
+	desc = "POLITICS_HENRI_BRISSON_DESC"
+	picture = "Portrait_FRA_Henri_Brisson.dds"
+	expire = "1912.4.14"
+	ideology = socialism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Édouard Drumont"
+	desc = "POLITICS_EDOUARD_DRUMONT_DESC"
+	picture = "Portrait_FRA_Edouard_Drumont.dds"
+	expire = "1917.2.5"
+	ideology = radical_nationalist
+	traits = {
+		
+	}
+}
+
+#Philippe Pétain, exclusively
+create_country_leader = {
+	name = "Philippe Pétain"
+	desc = "POLITICS_PHILIPPE PETAIN_DESC"
+	picture = "Portrait_FRA_Jules_Meline.dds"
+	expire = "1951.7.23"
+	ideology = national_populist
+	traits = {
+		
+	}
+}
+
+1902.5.22 = {	#Default ai only
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "1902.5.22"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	ultranationalist = 1
+	nationalist = 1
+	autocratic_monarchist = 9
+	reactionary = 0
+	conservative = 45
+	centrist = 0
+	liberal = 37
+	socialist = 7
+	communist = 0
+}
+
+create_field_marshal = {
+	name = "Philippe Pétain"
+	picture = "Portrait_France_Pétain.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Robert Nivelle"
+	picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
+	traits = {  }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}

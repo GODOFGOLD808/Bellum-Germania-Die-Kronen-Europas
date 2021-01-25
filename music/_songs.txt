@@ -1,0 +1,17 @@
+music_station = "britannia"
+
+music = {
+	song = "maintheme"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}
+
+#Sabaton
+
+music = {
+	song = "Parbat_Action_Conflict"
+	
+}

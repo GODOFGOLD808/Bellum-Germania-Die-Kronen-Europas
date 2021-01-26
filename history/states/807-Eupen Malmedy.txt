@@ -1,0 +1,26 @@
+state={
+	id=807
+	name="STATE_807"
+	
+	history={
+		owner = GER
+		victory_points = {
+			3488 3 	#Eupen
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = GER
+		add_core_of = BEL
+
+	}
+	
+	provinces={
+		3488 
+	}
+	manpower=60000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

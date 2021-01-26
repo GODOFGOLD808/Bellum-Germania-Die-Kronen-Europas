@@ -1,0 +1,25 @@
+state={
+	id=816
+	name="STATE_816"
+	
+	history={
+		owner = GER
+		victory_points = {
+			3295 5 		#Grudziadz
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = GER
+		add_core_of = POL
+
+	}
+	
+	provinces={
+		279 334 389 3295 3324 6347 9263 
+	}
+	manpower=582205
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

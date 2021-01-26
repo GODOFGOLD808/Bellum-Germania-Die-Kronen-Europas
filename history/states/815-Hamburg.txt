@@ -1,0 +1,25 @@
+state={
+	id=815
+	name="STATE_815"
+	
+	history={
+		owner = GER
+		victory_points = {
+			9347 20 	#Hamburg
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = GER
+
+	}
+	
+	provinces={
+		9320 9347 
+	}
+	manpower=1841000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

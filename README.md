@@ -1,5 +1,5 @@
 # Bellum Germania: A New Republic
-Belle Époque: Era of Britannia is a Steampunk Alternate History mod that begins at the turn of the century.
+Under Development
 
 The lore shall be in another document in the repository
 

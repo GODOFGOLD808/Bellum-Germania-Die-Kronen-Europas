@@ -9,10 +9,10 @@ state= {
 	state_category = rural
 
 	history= {
-		owner = JAP
+		owner = RUS
 		#add_core_of = RUS
 		#add_core_of = SOV
-		#add_core_of = JAP
+		#add_claim_by = JAP
 		buildings = {
 			infrastructure = 3
 			12446 = {

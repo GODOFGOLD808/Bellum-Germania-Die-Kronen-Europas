@@ -5,6 +5,9 @@ state={
 	history={
 		owner = GER
 		victory_points = {
+			6570 5 	#Dusseldorf
+		}
+		victory_points = {
 			6469 5 	#Essen
 		}
 		buildings = {

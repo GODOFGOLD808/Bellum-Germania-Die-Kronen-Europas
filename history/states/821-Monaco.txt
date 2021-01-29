@@ -1,0 +1,26 @@
+state={
+	id=821
+	name="STATE_821"
+	
+	history={
+		owner = MNC
+		victory_points = {
+			13246 5 		#Monaco
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			dockyard = 2
+
+		}
+		add_core_of = MNC
+
+	}
+	
+	provinces={
+		13246 
+	}
+	manpower=38964
+	buildings_max_level_factor=1.000
+	state_cqategory=city
+}

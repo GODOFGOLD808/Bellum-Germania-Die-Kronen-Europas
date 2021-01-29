@@ -1,0 +1,28 @@
+state={
+	id=830
+	name="STATE_830"
+	
+	history={
+		owner = HUN
+		victory_points = {
+			6647 2 		#Osijek
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+
+		}
+		add_core_of = HUN
+		add_core_of = CRO
+		add_core_of = YUG
+
+	}
+	
+	provinces={
+		3627 6647 9595 
+	}
+	manpower=806192
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

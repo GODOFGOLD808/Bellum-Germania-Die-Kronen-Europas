@@ -1,0 +1,27 @@
+state={
+	id=823
+	name="STATE_823"
+	
+	history={
+		owner = ITA
+		victory_points = {
+			11564 2 		#Rijeka
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+
+		}
+		add_core_of = YUG
+		add_core_of = CRO
+		add_claim_by = ITA
+
+	}
+	
+	provinces={
+		11564 
+	}
+	manpower=128624
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

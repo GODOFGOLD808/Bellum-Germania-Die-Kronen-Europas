@@ -1,0 +1,26 @@
+state={
+	id=819
+	name="STATE_819"
+	
+	history={
+		owner = ITA
+		victory_points = {
+			11598 2 		#Tento
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = ITA
+		add_core_of = AUS
+
+	}
+	
+	provinces={
+		6631 9598 11598 
+	}
+	manpower=538223
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -2,11 +2,11 @@
 # MAIN THEME
 music = {
 	name = "maintheme"
-	file = "wohlauf_kameraden_aufs_pferd.ogg"
+	file = "das_lied_der_deutschen.ogg"
 	volume = 0.65
 }
 
-#sabaton
+#britannia
 
 music = {
 	name = "???"

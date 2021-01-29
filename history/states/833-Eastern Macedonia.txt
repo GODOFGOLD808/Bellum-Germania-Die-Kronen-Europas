@@ -1,0 +1,26 @@
+state={
+	id=833
+	name="STATE_833"
+	
+	history={
+		owner = BUL
+		victory_points = {
+			6886 1 		#Strumica
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = BUL
+		add_core_of = SER
+		add_core_of = YUG
+
+	}
+	
+	provinces={
+		907 3833 6886 
+	}
+	manpower=35311
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

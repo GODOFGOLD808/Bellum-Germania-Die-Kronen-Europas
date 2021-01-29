@@ -12,6 +12,6 @@ music = {
 #Sabaton
 
 music = {
-	song = "wohlauf_kameraden_aufs_pferd"
+	song = "das_lied_der_deutschen"
 	
 }

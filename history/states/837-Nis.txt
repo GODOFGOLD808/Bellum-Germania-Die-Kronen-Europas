@@ -1,0 +1,26 @@
+state={
+	id=837
+	name="STATE_837"
+	
+	history={
+		victory_points = {
+			9602 3 		#Nis
+		}
+		owner = SER
+		add_core_of = SER
+		add_core_of = YUG
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+
+	}
+	
+	provinces={
+		630 9602 9756 11887 
+	}
+	manpower=185987
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

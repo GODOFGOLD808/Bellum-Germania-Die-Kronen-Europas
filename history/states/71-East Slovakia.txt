@@ -1,18 +1,17 @@
+
 state={
 	id=71
 	name="STATE_71"
-	manpower = 1197800
-	
-	state_category = rural
-	
+
 	history={
 		victory_points = {
-			3581 3
+			3581 3 
 		}
 		owner = HUN
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
+
 		}
 		add_core_of = HUN
 		add_core_of = CZE
@@ -21,6 +20,9 @@ state={
 	}
 
 	provinces={
-		555 581 3550 3581 6586 6604 11554 
+		555 581 3550 3565 3581 6573 6586 6604 9537 11554 
 	}
+	manpower=1197800
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

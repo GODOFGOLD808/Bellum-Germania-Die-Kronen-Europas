@@ -447,8 +447,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_autocratic_monarchist_group"
-		texturefile = "gfx/interface/ideologies/autocratic_monarchist_group.dds"
+		name = "GFX_ideology_monarchist_group"
+		texturefile = "gfx/interface/ideologies/monarchist_group.dds"
 	}
 	
 	spriteType = {
@@ -484,6 +484,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_anarchist_group"
 		texturefile = "gfx/interface/ideologies/anarchist_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_technocrat_group"
+		texturefile = "gfx/interface/ideologies/technocrat_group.dds"
 	}
 	
 	spriteType = {

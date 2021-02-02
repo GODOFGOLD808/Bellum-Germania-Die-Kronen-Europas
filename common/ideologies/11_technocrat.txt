@@ -1,0 +1,68 @@
+ideologies = {
+	
+	technocrat = {
+	
+		types = {
+			
+			technocrat_subtype = {
+			}
+			
+			technocratic = {
+			}
+			
+			technophile = {
+			}
+			
+			expertism = {
+			}
+			
+			political_leader = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_TECHNOCRAT_1"
+			"FACTION_NAME_TECHNOCRAT_2"
+			"FACTION_NAME_TECHNOCRAT_3"
+			"FACTION_NAME_TECHNOCRAT_4"
+			"FACTION_NAME_TECHNOCRAT_5"
+			"FACTION_NAME_TECHNOCRAT_6"
+		}
+		
+		color = { 100 189 74 }
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+		}
+		
+		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 0.10		# Expert Leadership
+		faction_impact_on_world_tension = 0.05
+		
+		modifiers = {
+			generate_wargoal_tension = 0.3
+			join_faction_tension = 0.4
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.4
+			guarantee_tension = 0.2
+			drift_defence_factor = -0.3	
+			civilian_intel_to_others = 25.0	# High Cryption Rate
+			army_intel_to_others = 25.0
+			navy_intel_to_others = 25.0
+			airforce_intel_to_others = 25.0
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.40 #plus 40% trade opinion
+		}
+		ai_technocrat = yes # uses the technocrat AI behaviour
+	}
+}

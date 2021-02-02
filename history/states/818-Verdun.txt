@@ -11,6 +11,12 @@ state={
 			infrastructure = 4
 
 		}
+		3560 = {
+			bunker = 5
+		}
+		5291 = {
+			bunker = 5
+		}
 		add_core_of = FRA
 		add_claim_by = GER
 

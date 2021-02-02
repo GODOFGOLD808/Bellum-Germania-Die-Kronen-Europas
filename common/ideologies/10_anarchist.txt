@@ -1,0 +1,68 @@
+ideologies = {
+	
+	anarchist = {
+	
+		types = {
+		
+			anarchist_subtype = {
+			}
+			
+			anarchism = {
+			}
+			
+			insurrectionist = {
+			}
+			
+			nihilist = {
+			}
+			
+			revolutionary = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_ANARCHIST_1"
+			"FACTION_NAME_ANARCHIST_2"
+			"FACTION_NAME_ANARCHIST_3"
+			"FACTION_NAME_ANARCHIST_4"
+			"FACTION_NAME_ANARCHIST_5"
+			"FACTION_NAME_ANARCHIST_6"
+		}
+		
+		color = { 0 0 0 }
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 0.10		# No State!
+		faction_impact_on_world_tension = 0.05
+		
+		modifiers = {
+			generate_wargoal_tension = 0.7
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.50
+			annex_cost_factor = 0.30
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.70 #plus 70% trade opinion
+		}
+		ai_anarchist = yes # uses the anarchist AI behaviour
+	}
+}

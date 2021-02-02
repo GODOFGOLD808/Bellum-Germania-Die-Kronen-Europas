@@ -1,0 +1,29 @@
+state={
+	id=846
+	name="STATE_846"
+	
+	history={
+		victory_points = {
+			11617 2 		#Sukhumi
+		}
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = GEO
+		add_core_of = ABK
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+
+	}
+	
+	provinces={
+		672 11599 11617 
+	}
+	manpower=65439
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

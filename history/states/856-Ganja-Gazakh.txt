@@ -1,0 +1,27 @@
+state={
+	id=856
+	name="STATE_856"
+	
+	history={
+		victory_points = {
+			11674 2 		#Ganja
+		}
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = AZR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+
+	}
+	
+	provinces={
+		1539 6763 11645 11674 
+	}
+	manpower=91063
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,68 @@
+ideologies = {
+	
+	ultranationalist = {
+	
+		types = {
+			
+			ultranationalist_subtype = {
+			}
+			
+			ultranationalism = {
+			}
+			
+			falangism = {
+			}
+			
+			rexism = {
+			}
+			
+			far_right_leader = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_ULTRANATIONALIST_1"
+			"FACTION_NAME_ULTRANATIONALIST_2"
+			"FACTION_NAME_ULTRANATIONALIST_3"
+			"FACTION_NAME_ULTRANATIONALIST_4"
+			"FACTION_NAME_ULTRANATIONALIST_5"
+			"FACTION_NAME_ULTRANATIONALIST_6"
+		}
+		
+		color = { 150 75 0 }
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 0.25		# Evil!
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 1.50
+			join_faction_tension = 0.30
+			lend_lease_tension = 0.25
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.30
+			annex_cost_factor = 0.1
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 15.0
+			navy_intel_to_others = 25.0
+			airforce_intel_to_others = 10
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.10 #plus 10% trade opinion
+		}
+		ai_fascist = yes # uses the fascist AI behaviour
+	}
+}

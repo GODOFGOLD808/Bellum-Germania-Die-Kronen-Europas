@@ -1,0 +1,28 @@
+state={
+	id=855
+	name="STATE_855"
+	
+	history={
+		victory_points = {
+			3653 2 		#Batumi
+		}
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = GEO
+		add_claim_by = ARM
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+
+		}
+
+	}
+	
+	provinces={
+		772 3653 3656 
+	}
+	manpower=155000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

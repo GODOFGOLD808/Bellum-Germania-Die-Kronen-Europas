@@ -1,0 +1,272 @@
+﻿capital = 195	#Petrograd
+
+oob = "RUS_1900"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "RUS_1900_naval_mtg"
+	else = {
+		set_naval_oob = "RUS_1900_naval_legacy"
+	}
+}
+
+set_research_slots = 4
+set_stability = 0.5
+set_war_support = 0.8
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1  # PLACEHOLDER
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		mtg_transport = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		mtg_transport = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+1905.1.1 = {
+
+	oob = "RUS_1905"
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+			set_naval_oob = "RUS_1905_naval_mtg"
+		else = {
+			set_naval_oob = "RUS_1905_naval_legacy"
+		}
+	}
+
+	set_technology = {
+		CAS1 = 1
+		improved_light_tank = 1
+		tactical_bomber1 = 1
+		interwar_artillery = 1
+		interwar_antitank = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
+		support_weapons2 = 1
+		paratroopers = 1
+
+		#doctrines
+		pocket_defence = 1
+		defence_in_depth = 1
+		battlefleet_concentration = 1
+		submarine_operations = 1
+
+		#Air
+		formation_flying = 1		
+		dive_bombing = 1
+		direct_ground_support = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+		basic_encryption = 1
+		basic_decryption = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		oil_processing = 1
+		fuel_refining2 = 1
+		construction1 = 1
+		construction2 = 1
+		construction3 = 1
+		concentrated_industry = 1
+		concentrated_industry2 = 1
+		concentrated_industry3 = 1
+	}
+	if = {
+		limit = { not = { has_dlc = "Man the Guns" } }
+		set_technology = {
+			basic_submarine = 1
+			basic_destroyer = 1
+			basic_heavy_cruiser = 1
+		}
+	}
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+		set_technology = {
+			improved_ship_hull_light = 1
+			improved_ship_hull_submarine = 1
+			basic_ship_hull_cruiser = 1
+		}
+	}
+}
+
+
+set_convoys = 50
+
+set_politics = {
+	ruling_party = monarchist
+	last_election = "1894.11.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	ultranationalist = 2.0
+	nationalist = 5.0
+	monarchist = 73.0
+	reactionary = 9.0
+	conservative = 6.0
+	centrist = 0.0
+	liberal = 0.0
+	socialist = 2.5
+	communist = 2.5
+	anarchist = 0.0
+	technocrat = 0.0
+}
+
+add_ideas = {
+	RUS_holstein_gottorp_romanov
+}
+
+create_country_leader = {
+	name = "Nikolai II Alexandrovich Romanov"
+	desc = "POLITICS_JOSEPH_STALIN_DESC"
+	picture = "Portrait_Russia_Nicholas_II.dds"
+	expire = "1942.7.15"	#Unknown predicted death
+	ideology = constitutional_monarchist
+	traits = {
+		diplomatic
+	}
+}
+
+create_country_leader = {
+	name = "Konstantin Rodzaevsky"
+	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
+	picture = "Portrait_Soviet_Konstantin_Rodzaevsky.dds"
+	expire = "1953.3.1"
+	ideology = ultranationalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Alexander Fyodorovich Kerensky"
+	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
+	picture = "Portrait_Soviet_Generic_1.dds"
+	expire = "1953.3.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+
+add_namespace = {
+	name = "unit_leader_rus"
+	type = unit_leader
+}
+
+######These leaders serve as templates, non official######
+
+create_field_marshal = {
+	name = "Georgy Zhukov"
+	id = 410
+		picture = "Portrait_Russia_Gregory_Zhukov.dds"
+	traits = { winter_specialist armor_officer media_personality war_hero }
+	skill = 5
+
+	
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Konstantin Rokossovsky"
+	id = 402
+		picture = "Portrait_Russia_Konstantin_Rokossovsky.dds"
+	traits = {  armor_officer trait_cautious brilliant_strategist }
+	skill = 4
+	
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
+}

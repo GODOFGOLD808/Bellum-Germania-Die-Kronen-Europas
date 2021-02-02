@@ -1,0 +1,23 @@
+state={
+	id=843
+	name="STATE_843"
+	
+	history={
+		owner = BUL
+		add_core_of = BUL
+		add_core_of = OTT
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+
+		}
+
+	}
+	
+	provinces={
+		878 893 3937 9862 9888 9902 11813 
+	}
+	manpower=2472723
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

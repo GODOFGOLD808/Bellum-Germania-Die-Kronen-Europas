@@ -1,0 +1,24 @@
+state={
+	id=847
+	name="STATE_847"
+	
+	history={
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = ARM
+		add_core_of = AZR
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+	
+	provinces={
+		1467 9715 
+	}
+	manpower=146573
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

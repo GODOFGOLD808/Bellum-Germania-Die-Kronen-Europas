@@ -1,0 +1,35 @@
+state={
+	id=845
+	name="STATE_845"
+	
+	history={
+		victory_points = {
+			10472 3 		#Kars
+		}
+		victory_points = {
+			7454 2 		#Artvin
+		}
+		victory_points = {
+			13245 2 		#Igdir
+		}
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = TUR
+		add_core_of = OTT
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+
+	}
+	
+	provinces={
+		6991 7454 10403 10472 13245 
+	}
+	manpower=73836
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

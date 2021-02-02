@@ -1,0 +1,27 @@
+state={
+	id=850
+	name="STATE_850"
+	
+	history={
+		victory_points = {
+			9247 2 		#Mogilev
+		}
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = BLR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+
+	}
+	
+	provinces={
+		289 6233 6354 9247 9371 11271 
+	}
+	manpower=380440
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

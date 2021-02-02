@@ -3,9 +3,6 @@ state={
 	name="STATE_841"
 	
 	history={
-		victory_points = {
-			867 2 		#Tetovo
-		}
 		owner = SER
 		add_core_of = SER
 		add_core_of = YUG

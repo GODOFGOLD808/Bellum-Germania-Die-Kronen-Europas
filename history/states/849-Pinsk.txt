@@ -1,0 +1,28 @@
+
+state={
+	id=849
+	name="STATE_849"
+
+	history={
+		victory_points = {
+			719 2 
+		}
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = BEL
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		560 3556 6280 6415 11285 
+	}
+	manpower=138202
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

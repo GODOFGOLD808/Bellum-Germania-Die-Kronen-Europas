@@ -1,0 +1,26 @@
+state={
+	id=848
+	name="STATE_848"
+	
+	history={
+		victory_points = {
+			719 3 		#Novorossiysk
+		}
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+
+		}
+
+	}
+	
+	provinces={
+		717 719 3698 9663 11647 
+	}
+	manpower=248857
+	buildings_max_level_factor=1.000
+	state_category=town
+}

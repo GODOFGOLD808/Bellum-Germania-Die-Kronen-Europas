@@ -1,0 +1,28 @@
+state={
+	id=854
+	name="STATE_854"
+	
+	history={
+		victory_points = {
+			6997 2 		#Nakhchivan
+		}
+		owner = RUS
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = ARM
+		add_claim_by = AZR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+
+		}
+
+	}
+	
+	provinces={
+		4660 6642 6997 
+	}
+	manpower=456100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

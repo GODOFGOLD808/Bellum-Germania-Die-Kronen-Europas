@@ -1,0 +1,22 @@
+state={
+	id=857
+	name="STATE_857"
+	
+	history={
+		owner = POR
+		add_core_of = POR
+		add_claim_by = SPR
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+	
+	provinces={
+		6884 9819 
+	}
+	manpower=1790
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

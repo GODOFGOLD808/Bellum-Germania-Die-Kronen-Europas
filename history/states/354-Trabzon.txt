@@ -4,7 +4,7 @@ state={
 	name="STATE_354"
 
 	history={
-		owner = TUR
+		owner = OTT
 		victory_points = {
 			9932 15 
 		}
@@ -22,6 +22,7 @@ state={
 			}
 
 		}
+		add_core_of = OTT
 		add_core_of = TUR
 
 	}

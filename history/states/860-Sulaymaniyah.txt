@@ -1,0 +1,27 @@
+state={
+	id=860
+	name="STATE_860"
+	
+	history={
+		victory_points = {
+			6826 2 		#Sulaymaniyah
+		}
+		owner = OTT
+		add_core_of = OTT
+		add_core_of = IRQ
+		add_core_of = KUR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+
+	}
+	
+	provinces={
+		6826 8123 10793 
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,27 @@
+state={
+	id=863
+	name="STATE_863"
+	
+	history={
+		victory_points = {
+			6788 5 		#Genoa
+		}
+		owner = ITA
+		add_core_of = ITA
+		add_claim_by = BEL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			dockyard = 1
+
+		}
+
+	}
+	
+	provinces={
+		771 3772 6788 11723 
+	}
+	manpower=583601
+	buildings_max_level_factor=1.000
+	state_category=city
+}

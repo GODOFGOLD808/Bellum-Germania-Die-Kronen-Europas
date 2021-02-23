@@ -1,0 +1,47 @@
+ideas = {
+
+	country = {
+		USA_scars_of_bladenhburg = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		USA_radical_southern_dissent = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		USA_republican_rhetoric = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		USA_democrat_rhetoric = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		USA_aftermath_of_mckinnleys_death = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		USA_naval_colonialist_tensions = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		USA_french_collaboration = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+	}
+}

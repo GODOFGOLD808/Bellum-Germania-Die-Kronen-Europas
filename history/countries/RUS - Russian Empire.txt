@@ -17,7 +17,6 @@ set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_recon = 1
-	tech_support = 1		
 	tech_engineers = 1
 	tech_military_police = 1
 	tech_mountaineers = 1
@@ -132,7 +131,6 @@ if = {
 		submarine_operations = 1
 
 		#Air
-		formation_flying = 1		
 		dive_bombing = 1
 		direct_ground_support = 1
 
@@ -201,7 +199,15 @@ set_popularities = {
 }
 
 add_ideas = {
+<<<<<<< HEAD
 	RUS_romanov
+=======
+	RUS_holstein_gottorp_romanov
+	RUS_the_soviet_threat
+	RUS_eastern_european_industrialism
+	RUS_kerenskys_motivation
+	RUS_slavic_separatism
+>>>>>>> 8324da83472d9637e1cb8220bace49d664482d30
 }
 
 create_country_leader = {
@@ -222,7 +228,7 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = ultranationalism
 	traits = {
-		
+
 	}
 }
 
@@ -233,7 +239,7 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = conservatism
 	traits = {
-		
+
 	}
 }
 
@@ -251,7 +257,7 @@ create_field_marshal = {
 	traits = { winter_specialist armor_officer media_personality war_hero }
 	skill = 5
 
-	
+
 	attack_skill = 5
 	defense_skill = 2
 	planning_skill = 4
@@ -264,7 +270,7 @@ create_corps_commander = {
 		picture = "Portrait_Russia_Konstantin_Rokossovsky.dds"
 	traits = {  armor_officer trait_cautious brilliant_strategist }
 	skill = 4
-	
+
 	attack_skill = 3
 	defense_skill = 4
 	planning_skill = 2

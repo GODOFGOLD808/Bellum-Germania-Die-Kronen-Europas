@@ -220,11 +220,11 @@ set_popularities = {
 }
 
 add_ideas = {
+	GER_hohenzollern
+	
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
-	
-	
 }
 add_ideas = GER_mefo_bills_1
 
@@ -236,7 +236,7 @@ create_country_leader = {
 	picture = "Portrait_Germany_Wilhelm_II.dds"
 	ideology = semi_constitutional_monarchist
 	traits = {
-		dictator
+		ambitious
 	}
 }
 

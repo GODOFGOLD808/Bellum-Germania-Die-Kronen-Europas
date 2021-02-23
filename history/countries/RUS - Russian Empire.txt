@@ -182,7 +182,7 @@ set_convoys = 50
 
 set_politics = {
 	ruling_party = monarchist
-	last_election = "1894.11.1"
+	last_election = "1890.1.15"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -201,12 +201,12 @@ set_popularities = {
 }
 
 add_ideas = {
-	RUS_holstein_gottorp_romanov
+	RUS_romanov
 }
 
 create_country_leader = {
 	name = "Nikolai II Alexandrovich Romanov"
-	desc = "POLITICS_JOSEPH_STALIN_DESC"
+	desc = "POLITICS_NICHOLAS_II_DESC"
 	picture = "Portrait_Russia_Nicholas_II.dds"
 	expire = "1942.7.15"	#Unknown predicted death
 	ideology = constitutional_monarchist

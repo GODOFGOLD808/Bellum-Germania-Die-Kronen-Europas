@@ -4,7 +4,7 @@ state={
 	
 	history={
 		victory_points = {
-			3810 2 
+			3810 2 		#Olivenza
 		}
 		owner = SPR
 		add_core_of = SPR

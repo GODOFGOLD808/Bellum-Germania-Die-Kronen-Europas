@@ -716,10 +716,6 @@ SHL = {
 	color = rgb { 51 51 255 }
 	color_ui = rgb { 51 51 255 }
 }
-CRI = {
-	color = rgb { 83  125  57 }
-	color_ui = rgb { 83  125  57 }
-}
 ABK = {
 	color = rgb { 0 117 117 }
 	color_ui = rgb { 0 117 117 }

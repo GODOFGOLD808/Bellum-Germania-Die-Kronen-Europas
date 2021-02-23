@@ -1,0 +1,35 @@
+ideas = {
+
+	country = {
+		RUS_holstein_gottorp_romanov = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		RUS_the_soviet_threat = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		RUS_eastern_european_industrialism = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		RUS_kerenskys_motivation = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		RUS_slavic_separatism = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+	}
+}

@@ -1,0 +1,41 @@
+ideas = {
+
+	country = {
+		GER_hohenzollern = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		GER_prussian_youth = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		GER_north_german_confederation = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		GER_south_german_confederation = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		GER_poznan_insurgency = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+		GER_kaisers = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+		}
+	}
+}

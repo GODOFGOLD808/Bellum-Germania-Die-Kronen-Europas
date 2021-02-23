@@ -1,9 +1,19 @@
-leader_traits = {	#EOB Traits
+leader_traits = {	#BGDKE Traits
 	
 	ambitious = {
 		random = no
 		political_power_gain = -0.05
 		conscription = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	diplomatic = {
+		random = no
+		political_power_gain = 0.05
+		trade_opinion_factor = 0.5
 
 		ai_will_do = {
 			factor = 1
